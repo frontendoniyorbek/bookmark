@@ -317,9 +317,6 @@ p {
 /* FEATURES CONTENT */
 .featurs__content {
 	padding-top: 7.2rem;
-	/* background-image: url(../images/blue-bg.svg);
-	background-repeat: no-repeat;
-	background-position: calc(50%); */
 }
 
 .featurs__inner {
@@ -332,10 +329,6 @@ p {
 .featurs__inner.active {
 	display: flex;
 }
-
-/* .simple-bookmarking {
-
-} */
 
 .featurs__img {
 	border-radius: 1rem;
@@ -365,6 +358,33 @@ p {
 .featurs__content-text {
 	margin-bottom: 3.2rem;
 	color: var(--gray-color);
+}
+
+/* DOWLANDS START */
+.dowlands {
+	padding-bottom: 14.9rem;
+}
+
+.dowlands__info {
+	max-width: 541px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 4.8rem;
+}
+
+.dowlands__title {
+	font-weight: 500;
+	font-size: 3.2rem;
+	letter-spacing: -0.01rem;
+	margin-bottom: 1.6rem;
+}
+
+.dowlands__text {
+	color: var(--gray-color);
+}
+.dowlands__list {
 }
 
 /* MAIN END */
@@ -494,6 +514,19 @@ p {
 
 	.btn-blue {
 		margin-right: 1.4rem;
+	}
+
+	.dowlands {
+		padding-bottom: 14rem;
+	}
+
+	.dowlands__info {
+		margin-bottom: 4rem;
+	}
+
+	.dowlands__title {
+		font-size: 3rem;
+		margin-bottom: 1.6rem;
 	}
 }
 
@@ -664,6 +697,11 @@ p {
 
 	.featurs__item:nth-child(1) {
 		border-top: 1px solid #495dcf33;
+	}
+
+	.dowlands__title {
+		font-size: 2.4rem;
+		margin-bottom: 1rem;
 	}
 }
 
