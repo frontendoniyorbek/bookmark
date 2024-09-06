@@ -249,6 +249,9 @@ p {
 /* FEATURES START */
 .featurs {
 	padding-bottom: 14.9rem;
+	background-image: url(../images/blue-bg.svg);
+	background-repeat: no-repeat;
+	background-position: calc(50% - 600px) 400px;
 }
 
 .featurs__info {
@@ -289,6 +292,11 @@ p {
 	padding-bottom: 2.8rem;
 	color: var(--hover-color);
 	border-bottom: 0.4rem solid var(--hover-color);
+}
+
+.featurs__link:focus {
+	outline: 0px dashed var(--btn-color);
+	outline-offset: 0px;
 }
 
 .featurs__link {
@@ -548,6 +556,7 @@ p {
 
 	.featurs {
 		padding-bottom: 14rem;
+		background-position: calc(50% - 500px) 400px;
 	}
 
 	.featurs__info {
@@ -764,6 +773,10 @@ p {
 	.hero {
 		background-position: calc(50% + 400px) 0px;
 		background-size: 900px 300px;
+	}
+
+	.featurs {
+		background-position: calc(50% - 1000px) 500px;
 	}
 
 	.featurs__content-title {
