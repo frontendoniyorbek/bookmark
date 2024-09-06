@@ -385,6 +385,65 @@ p {
 	color: var(--gray-color);
 }
 .dowlands__list {
+	display: flex;
+	justify-content: center;
+	align-items: start;
+	flex-wrap: wrap;
+	margin-right: -3.4rem;
+}
+
+.dowlands__item {
+	max-width: 280px;
+	width: 100%;
+	box-shadow: 0px 10px 20px -5px #495dcf33;
+	margin-right: 3.4rem;
+	padding: 4.9rem 2.4rem 2.4rem;
+	border: 3rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.dowlands__item:nth-child(3n + 2) {
+	margin-top: 4rem;
+}
+
+.dowlands__item:nth-child(3n) {
+	margin-top: 8rem;
+}
+
+.dowlands__item2 {
+	position: relative;
+}
+
+.dowland__bg {
+	position: absolute;
+	bottom: 9.6rem;
+	left: 0;
+}
+
+.dowlands__img {
+	width: 102px;
+	height: 100px;
+	object-fit: contain;
+	margin-bottom: 3.2rem;
+}
+
+.dowlands__item-title {
+	font-weight: 500;
+	font-size: 2rem;
+	letter-spacing: 0.025rem;
+	margin-bottom: 0.6rem;
+}
+
+.dowlands__item-text {
+	color: var(--gray-color);
+	margin-bottom: 6rem;
+}
+.dowlands__btn {
+	font-size: 1.4rem;
+	padding: 1rem 3.4rem;
 }
 
 /* MAIN END */
