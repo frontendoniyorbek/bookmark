@@ -705,6 +705,23 @@ p {
 	}
 }
 
+@media screen and (max-width: 635px) {
+	.dowlands__list {
+		align-items: center;
+		margin-right: 0;
+	}
+
+	.dowlands__item {
+		max-width: 98%;
+		margin-right: 0rem;
+		padding: 4.9rem 2.4rem 2.4rem;
+	}
+
+	.dowlands__btn {
+		display: block !important;
+	}
+}
+
 @media screen and (max-width: 570px) {
 	body {
 		font-size: 1.3rem;
